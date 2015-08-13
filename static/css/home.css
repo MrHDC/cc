@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+#body{
+	position:relative;
+	background:url(../images/body.png);
+	width:1294px;
+	height: 900px;
+	margin:0 auto;
+}
+h1{
+	position:absolute;
+	top:20px;
+	left:430px;
+	font-size:40px;
+	font-weight:bold;
+	color:#C30;
+}
+h2{
+	position:absolute;
+	top:780px;
+	left:800px;
+	font-size:20px;
+	
+	}
+#bangchamcong{
+	position:absolute;
+	top:300px;
+	left:200px;
+	
+	}
+#menu{
+	position:absolute;
+	top: 130px;
+	left:450px;
+}
+#logo{
+	padding:30px;
+	}
+#menu1 {
+	width:100%;
+}
+#dangnhap{
+	position:absolute;
+	left:500px;
+	top:300px;
+}
+
+#menu1 ul{
+	list-style:none;
+	padding:0;
+}
+#menu1 ul li{
+	float:left;
+	position:relative;
+}
+#menu1 ul a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	font-weight:bold;
+	font-size:20px;
+	padding:20px 40px;
+	background:#900;
+	border-left:4px solid #CCC;
+}
+menu1 ul a:hover{
+	background:#555;
+}
+
+#menu1 li ul a{
+	background:#444;
+}
+#menu1 li ul{
+	position:absolute;
+	display:none;
+}
+#menu1 li:hover ul{
+	display:block;
+}
